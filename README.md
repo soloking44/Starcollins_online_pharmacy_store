@@ -62,11 +62,11 @@ Team Members:
 
 Name: Asakwonye Collins Onyekachi
 
-https://www.linkedin.com/in/collins-kachi-a65a7a76/
+Linkedin: https://www.linkedin.com/in/collins-kachi-a65a7a76/
 
-https://github.com/soloking44/
+Github: https://github.com/soloking44/
 
-https://x.com/Gospel17263962
+twitter: https://x.com/Gospel17263962
 
-https://github.com/soloking44/Starcollins_online_pharmacy_store
+Project url: https://github.com/soloking44/Starcollins_online_pharmacy_store
 
