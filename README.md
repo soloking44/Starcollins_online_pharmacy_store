@@ -1,64 +1,155 @@
-Web Portfolio project
+Starcollins Online Pharmacy Store
 
-Starcollins online pharmacy store is a platform that offers a seamless experience for users to manage their pharmacy needs online.
+Starcollins Online Pharmacy Store is a platform offering a seamless experience for users to manage their pharmacy needs online. It allows users to browse pharmaceutical products, order medications, manage accounts, and more, all from the comfort of their homes.
 
 Task:
 
-1. Full Stack Webstack Portfolio Project (Starcollins Online Pharmacy Store)
 
-ALX AFRICA
+Full Stack Webstack Portfolio Project
+
+Project: Starcollins Online Pharmacy Store
+
+
+Organization: ALX Africa
+
+
+
+About the ALX Holberton Program:
 
 The ALX Holberton Software Engineering program is an intensive 12-month journey (70 hours per week) designed to immerse aspiring software engineers and tech enthusiasts in cutting-edge disciplines. Through hands-on learning and in-depth projects, it equips participants with the skills needed for a successful global career as a Full-Stack Developer.
 
-Initiating the project.
+Getting Started
+
 
 Backend: Python Django
 
-1. Clone the repository to your local machine.
+To get started with the backend:
 
-2. Navigate to the backend directory.
+1. Clone the repository:
 
-3. Create a virtual environment and configure the necessary environment variables.
-
-4. Navigate to the virtual environments.
-
-5. Use pip install django to install django.
-
-6. Use the django admin to create project, project Name.
-
-7. Use python3 manage.py to createapp App Name.
-
-8. Use python manage.py runserver to run out django page.
-
-Frontend: React JS, Tailwind/CSS
-
-1. Download and install Node.js from the official Node.js website.
+git clone https://github.com/soloking44/Starcollins_online_pharmacy_store.git
 
 
-2. Run the Node.js installer, agree to the license agreement, and follow the installation steps.
+2. Navigate to the backend directory:
 
-3. Restart your system to complete the installation.
+cd Starcollins_online_pharmacy_store/backend
 
-4. Open a terminal session and verify the Node.js installation by running the following command:
- node -v.
+3. Create a virtual environment and configure necessary environment variables:
 
-5. In a new terminal session, navigate to the frontend directory and run the following command: npm install.
 
-6. Once all dependencies are installed, start the frontend server by running: npm start.
 
-Technology Used
+python3 -m venv env
 
-1. Backend: Python Django
+source env/bin/activate
 
-2. Frontend: React JS, Tailwind/CSS
+4. Install dependencies:
 
-3. Database: SQL
+pip install django
 
-AUTHOR
+5. Set up the Django project:
 
-Asakwonye Collins Onyekachi
+django-admin startproject your_project_name
 
-Team Members:
+6. Create an app:
+
+python manage.py startapp your_app_name
+
+7. Run the Django development server:
+
+python manage.py runserver
+
+Frontend: React JS and Tailwind CSS
+
+
+To set up the frontend:
+
+1. Install Node.js from the official website.
+
+2. Verify the installation:
+
+node -v
+
+3. Navigate to the frontend directory:
+
+cd Starcollins_online_pharmacy_store/frontend
+
+4. Install dependencies:
+
+npm install
+
+5. Start the frontend development server:
+
+npm start
+
+Technology Stack
+
+Backend: Python Django
+
+
+Frontend: React JS, Tailwind CSS
+
+
+Database: SQL
+
+Project Demonstration
+
+Commit Message Best Practices:
+
+Every commit describes the key changes made using clear, concise, and professional wording.
+
+Commit messages follow the standard format:
+
+Short summary (imperative mood)
+
+Detailed explanation of the changes
+
+References to relevant issues or tasks.
+
+Example:
+
+Add product catalog page for browsing medications
+
+- Implemented the product catalog layout
+
+- Added filters for medication categories
+
+- Integrated backend API to fetch product data
+
+Code Structure:
+
+The project demonstrates well-structured, readable code with clear separation of concerns between the frontend and backend.
+
+
+Both Python (Django) and React components are well-organized into respective directories, adhering to best practices for MVC (Model-View-Controller) and component-based architecture.
+
+
+Exploration of New Technologies:
+
+
+
+The project explores the integration of Stripe for payment processing and SendGrid for email notifications, demonstrating curiosity and adoption of third-party services.
+
+React’s Tailwind CSS was used to streamline front-end styling with utility classes, showcasing an exploration of modern front-end technologies.
+
+
+Test Plan
+
+Backend Testing:
+
+Django's built-in TestCase framework is used for unit testing the views, models, and APIs.
+
+Example of running tests:
+
+python manage.py test
+
+Frontend Testing:
+
+Testing for React components using Jest and React Testing Library.
+
+
+Unit and integration tests cover critical components such as the product catalog and checkout functionality.
+
+Author
 
 Name: Asakwonye Collins Onyekachi
 
@@ -67,6 +158,8 @@ Linkedin: https://www.linkedin.com/in/collins-kachi-a65a7a76/
 Github: https://github.com/soloking44/
 
 twitter: https://x.com/Gospel17263962
+
+Project Links
 
 Project url: https://github.com/soloking44/Starcollins_online_pharmacy_store
 
