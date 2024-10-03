@@ -21,9 +21,9 @@ Organization: ALX Africa
 Getting Started
 
 
-Backend: Python Django
+- Backend: Python Django
 
-To get started with the backend:
+- To get started with the backend:
 
 1. Clone the repository:
 
@@ -44,7 +44,7 @@ To get started with the backend:
 
 4. Install dependencies:
 
-pip install django
+- pip install django
 
 5. Set up the Django project:
 
