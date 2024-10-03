@@ -83,17 +83,17 @@ To set up the frontend:
 
 Technology Stack
 
-Backend: Python Django
+- Backend: Python Django
 
 
-Frontend: React JS, Tailwind CSS
+- Frontend: React JS, Tailwind CSS
 
 
-Database: SQL
+- Database: SQL
 
 Project Demonstration
 
-Commit Message Best Practices:
+- Commit Message Best Practices:
 
 - Every commit describes the key changes made using clear, concise, and professional wording.
 
@@ -134,7 +134,7 @@ Exploration of New Technologies:
 
 Test Plan
 
-Backend Testing:
+- Backend Testing:
 
 - Django's built-in TestCase framework is used for unit testing the views, models, and APIs.
 
